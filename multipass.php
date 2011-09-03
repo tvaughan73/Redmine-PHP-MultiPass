@@ -8,7 +8,7 @@
  *  Code below is for encoding of user data that can be used to facilitate auto registration and auto login to Redmine.
  *  Links:
  * 	Redmine: http://redmine.org
- *  Remine MultiPass Gem: https://github.com/jozefvaclavik/redmine_multipass
+ *      Remine MultiPass Gem: https://github.com/jozefvaclavik/redmine_multipass
  *****************************/
 
 /*****************************
@@ -24,8 +24,8 @@ $date = new DateTime();
 $date->add(new DateInterval('P1D'));
 $expiry = $date->format('Y-m-d H:i:s'); //set expiration for 1 day from now
 $uid = 2011; //this is whatever the unique id of the user is
-// in case this is not obvious, it is best to generate a new link for a user every time they log into your main app and have the link expire
-//within the shortest amount of time.
+// in case this is not obvious, it is best to generate a new link for a user every time they log into your main app 
+//and have the link expire within the shortest amount of time.
 /*****************************
  *  Auto Registration
  *****************************/
