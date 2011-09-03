@@ -26,6 +26,7 @@ $expiry = $date->format('Y-m-d H:i:s'); //set expiration for 1 day from now
 $uid = 2011; //this is whatever the unique id of the user is
 // in case this is not obvious, it is best to generate a new link for a user every time they log into your main app 
 //and have the link expire within the shortest amount of time.
+
 /*****************************
  *  Auto Registration
  *****************************/
@@ -36,6 +37,7 @@ $encoded_reg_string = gen_multipass($reg_string, $site_key, $api_key);
 
 echo 'http://yourRedmineURL/multipass/?sso=' . $encoded_reg_string;
 echo '<br>';
+
 /*****************************
  *  Auto Login
  *****************************/
