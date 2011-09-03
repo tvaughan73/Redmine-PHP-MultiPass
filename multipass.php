@@ -4,7 +4,7 @@
  *  Tom Vaughan
  *  http://rapidach.com
  *  9/2/2011
- *  Developed for use with Redmine MultiPass plugin to allow for Single Sign On (SSO). https://github.com/jozefvaclavik/redmine_multipass
+ *  Developed for use with Redmine MultiPass plugin to allow for Single Sign On (SSO). 
  *  Code below is for encoding of user data that can be used to facilitate auto registration and auto login to Redmine.
  *  Links:
  * 	Redmine: http://redmine.org
